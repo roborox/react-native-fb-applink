@@ -1,9 +1,7 @@
-import { NativeModulesStatic } from "react-native"
-
-declare module "react-native" {
-	export interface NativeModulesStatic {
-		FBAppLink: {
-			fetch: () => Promise<string | null>
-		}
+declare module '@roborox/react-native-fb-applink' {
+	interface FBAppLinkModule {
+		fetch: () => Promise<string | null>
 	}
+	const module: FBAppLinkModule;
+	export default module
 }

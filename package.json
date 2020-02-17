@@ -1,7 +1,7 @@
 {
   "name": "@roborox/react-native-fb-applink",
   "title": "React Native Fb Applink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetched deferred deep links",
   "files": [
     "ios",
@@ -10,7 +10,8 @@
     "index.js",
     "react-native-fb-applink.podspec",
     "README.md",
-    "index.d.ts"
+    "index.d.ts",
+    "index.ts"
   ],
   "publishConfig": {
     "access": "public"
