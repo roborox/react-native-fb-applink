@@ -1,0 +1,40 @@
+{
+  "name": "@roborox/react-native-fb-applink",
+  "title": "React Native Fb Applink",
+  "version": "1.0.0",
+  "description": "Fetched deferred deep links",
+  "files": [
+    "ios",
+    "android",
+    "package.json",
+    "index.js",
+    "react-native-fb-applink.podspec",
+    "README.md",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "facebook",
+    "deep links",
+    "deferred deep link"
+  ],
+  "author": {
+    "name": "roborox",
+    "url": "https://roborox.org"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">= 16.8",
+    "react-native": ">= 0.60"
+  },
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.60.5"
+  }
+}
