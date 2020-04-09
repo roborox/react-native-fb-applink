@@ -1,8 +1,7 @@
 #import "FBAppLink.h"
-#import "React/RCTLog.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
-@implementation FBAppLink{
+@implementation FBAppLink {
 	NSURL *appLinkUrl;
 }
 
@@ -16,7 +15,6 @@ RCT_REMAP_METHOD(
 		[FBSDKAppLinkUtility fetchDeferredAppLink:^(NSURL *url, NSError *error) {
 			if (error) {
 				reject(@"error", @"FBAppLink Received error while fetching deferred app link %@", error);
-				RCTLogInfo(@"FBAppLink Received error while fetching deferred app link %@", error);
 			}
 			if (url) {
 				self->appLinkUrl = url;
