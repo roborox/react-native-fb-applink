@@ -4,4 +4,4 @@ interface FBAppLinkModule {
 	fetch: () => Promise<string | null>
 }
 
-export default NativeModules.FbApplink as FBAppLinkModule
+export default NativeModules.FBAppLink as FBAppLinkModule

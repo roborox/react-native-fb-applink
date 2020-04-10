@@ -1,7 +1,7 @@
 {
   "name": "@roborox/react-native-fb-applink",
   "title": "React Native Fb Applink",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "index.js",
   "types": "index.d.ts",
   "source": "index.ts",
