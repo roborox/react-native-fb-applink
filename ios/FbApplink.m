@@ -1,4 +1,4 @@
-#import "FBApplink.h"
+#import "FbApplink.h"
 
 @implementation FBAppLink {
 	NSURL *appLinkUrl;
