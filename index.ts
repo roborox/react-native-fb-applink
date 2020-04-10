@@ -1,3 +1,7 @@
 import { NativeModules } from "react-native";
 
-export default NativeModules.FbApplink
+interface FBAppLinkModule {
+	fetch: () => Promise<string | null>
+}
+
+export default NativeModules.FbApplink as FBAppLinkModule

@@ -1,11 +1,14 @@
 {
   "name": "@roborox/react-native-fb-applink",
   "title": "React Native Fb Applink",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "types": "index.d.ts",
   "source": "index.ts",
   "description": "Fetched deferred deep links",
+  "scripts": {
+    "build": "tsc"
+  },
   "files": [
     "ios",
     "android",
@@ -34,12 +37,11 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": ">= 16.8",
-    "react-native": ">= 0.60"
+    "react-native": ">= 0.61.5"
   },
   "devDependencies": {
-    "@types/react-native": "0.61.17",
-    "react": "16.8.3",
-    "react-native": "0.60.5"
+    "@types/react-native": "0.61.23",
+    "react-native": "0.61.5",
+    "typescript": "3.8.3"
   }
 }
